@@ -1,0 +1,48 @@
+# Core Mining & Version Control
+pydriller==2.6
+GitPython==3.1.44
+pygithub==2.4.0
+
+# Traditional Code Metrics
+radon==6.0.1
+lizard==1.17.10
+
+# LLM Inference (Local)
+ollama==0.3.3
+
+# Data Processing & Storage
+pandas==2.2.3
+numpy==2.1.2
+pyarrow==17.0.0
+
+# Machine Learning
+scikit-learn==1.5.2
+lightgbm==4.5.0
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+
+# Optional: GNN & Graph Construction
+torch-geometric==2.6.1
+networkx==3.3
+
+# AST & Advanced Structural Analysis
+astroid==3.3.5
+python-gitlab==4.11.0
+
+# Configuration & Logging
+pyyaml==6.0.2
+loguru==0.7.2
+
+# GitHub Actions & CI Utilities
+requests==2.32.3
+jinja2==3.1.4
+
+# Development & Notebook Support
+jupyter==1.1.1
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.66.5
+ipython==8.17.0
+setuptools>=68.0.0
+wheel>=0.40.0

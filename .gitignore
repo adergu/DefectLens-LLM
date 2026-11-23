@@ -1,0 +1,55 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Excluded research directories
+/data/01_raw_data/
+/results/
+/prototype/
+/models/
+
+# Only CSV and Parquet datasets in selected data folders
+/data/*
+!/data/02_snapshots/
+!/data/03_labeled/
+!/data/04_llm_scores/
+
+/data/02_snapshots/**
+/data/03_labeled/**
+/data/04_llm_scores/**
+
+!/data/02_snapshots/**/
+!/data/03_labeled/**/
+!/data/04_llm_scores/**/
+
+!/data/02_snapshots/**/*.csv
+!/data/02_snapshots/**/*.parquet
+!/data/03_labeled/**/*.csv
+!/data/03_labeled/**/*.parquet
+!/data/04_llm_scores/**/*.csv
+!/data/04_llm_scores/**/*.parquet
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# Temporary files
+project_structure.txt
+src/progress.txt
+src/llm_scorer_terminal_result.text
+*.log
+*.tmp
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+django/django
+pallets/flask
+fastapi/fastapi
+psf/requests
+pandas-dev/pandas
+numpy/numpy
+scikit-learn/scikit-learn
+matplotlib/matplotlib
+sqlalchemy/sqlalchemy
+pytest-dev/pytest
