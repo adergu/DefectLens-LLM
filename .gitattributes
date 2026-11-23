@@ -1,0 +1,2 @@
+data/04_llm_scores/*_12D_LLM_GROQ.csv filter=lfs diff=lfs merge=lfs -text
+data/04_llm_scores/*_12D_LLM_GROQ.parquet filter=lfs diff=lfs merge=lfs -text

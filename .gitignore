@@ -53,3 +53,11 @@ src/llm_scorer_terminal_result.text
 .idea/
 .DS_Store
 Thumbs.db
+
+# Dataset backups and temporary LLM caches
+/data/**/backup/
+/data/**/backkup/
+/data/**/04_llm_temp/
+
+# Large source-code cache files
+**/*source_code_cache.parquet
